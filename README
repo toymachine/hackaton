@@ -1,0 +1,20 @@
+Online Multiplayer Car Game prototype in html5/javascript/canvas/webgl for the Hyves Hackaton
+
+A game is developed with 2 cars being simulated using jiglibjs2 physics engine (http://brokstuk.com/jiglibjs2/)
+
+The Three.js 3d library (https://github.com/mrdoob/three.js/)
+
+And node.js for the communcation between the players
+
+Assuming you have node and npm:
+
+npm install in this folder to install deps
+
+then 
+
+node app.js
+
+and point 2 browsers at http://localhost:9090
+
+Most obvious improvement from here is to periodically sync the physics simulations for the
+relevant objects (the cars in this case), as the simulation goes out of sync very quickly
