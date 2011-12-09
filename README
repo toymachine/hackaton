@@ -17,4 +17,9 @@ node app.js
 and point 2 browsers at http://localhost:9090
 
 Most obvious improvement from here is to periodically sync the physics simulations for the
-relevant objects (the cars in this case), as the simulation goes out of sync very quickly
+relevant objects (the cars in this case), as the simulation goes out of sync very quickly.
+
+I a real game is made, probably a 3d simulation is needed running in the server side, as the single
+authoritive simulation, to prevent cheating and to have a single sync point for all players.
+
+Because the server side is written in Node.js, it should be possible to re-use the jiglibjs2 library also on the server.
